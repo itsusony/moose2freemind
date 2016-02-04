@@ -13,7 +13,7 @@ elsif ( !-d $path ) {
     exit 1;
 }
 
-my $rst = '<map version="1.0.1"><node CREATED="' . $date . '" ID="ID_' . ( $id++ ) . '" MODIFIED="' . $date . '" TEXT="FOUT">';
+my $rst = '<map version="1.0.1"><node CREATED="' . $date . '" ID="ID_' . ( $id++ ) . '" MODIFIED="' . $date . '" TEXT="TOP">';
 my $id = 1;
 
 my @pm_attrnames = qw/with override around before after augment has sub/;
